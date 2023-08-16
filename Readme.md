@@ -6,10 +6,6 @@ Design of Experiments Generator in Python (`pip install doepy`)
   <img width="500" height="250" src="https://raw.githubusercontent.com/tirthajyoti/doepy/master/images/doe_1.PNG">
 </p>
 
-Authored and maintained by [Dr. Tirthajyoti Sarkar](https://www.linkedin.com/in/tirthajyoti-sarkar-2127aa7/), Fremont, California.
-
-Check [my website](https://tirthajyoti.github.io) for details about my other projects and data science/ML articles.
-
 ## Introduction
 ---
 [Design of Experiments (DOE)](https://en.wikipedia.org/wiki/Design_of_experiments) is an important activity for any scientist, engineer, or statistician planning to conduct experimental analysis. This exercise has become **critical in this age of rapidly expanding field of data science and associated statistical modeling and machine learning**. A well-planned DOE can give a researcher a meaningful data set to act upon with the optimal number of experiments, thus preserving critical resources.
