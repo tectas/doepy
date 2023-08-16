@@ -26,7 +26,7 @@ pip install diversipy
 ### How to install the package?
 (On Linux and Windows) You can use ``pip`` to install ``doepy``::
 
-	pip install doepy
+	pip install fluidon-doepy
 
 (On Mac OS), first install pip,
 ```
@@ -36,7 +36,7 @@ python get-pip.py
 Then proceed as above.
 
 ### Github
-The package is hosted at this **[Github repo](https://github.com/tirthajyoti/doepy)**.
+The package is hosted at this **[Github repo](https://github.com/fluidon-sw/doepy)**.
 
 ### Quick start
 Let's say you have a design problem with the following table for the parameters range. Imagine this as a generic example of a chemical process in a manufacturing plant. You have 3 levels of `Pressure`, 3 levels of `Temperature`, 2 levels of `FlowRate`, and 2 levels of `Time`.
