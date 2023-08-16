@@ -1,6 +1,10 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "fluidon-doepy"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
     { name='Tirthajyoti Sarkar', email="tirthajyoti@gmail.com" },
     { name="Oliver Breuer", email="oliver.breuer@fluidon.com" },
@@ -12,6 +16,12 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependecies = [
+    "pyDOE",
+    "numpy",
+    "pandas",
+    "diversipy"
 ]
 
 [project.urls]
