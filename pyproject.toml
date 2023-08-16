@@ -1,6 +1,6 @@
 [project]
 name = "fluidon-doepy"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
     { name='Tirthajyoti Sarkar', email="tirthajyoti@gmail.com" },
     { name="Oliver Breuer", email="oliver.breuer@fluidon.com" },

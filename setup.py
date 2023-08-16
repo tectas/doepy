@@ -7,7 +7,7 @@ def read(fname, encoding='utf-8'):
 
 setup(
     name='doepy',
-    version="0.0.1",
+    version="0.0.3",
     author='Tirthajyoti Sarkar',
     author_email='tirthajyoti@gmail.com',
     description='Design of experiments generator with simple CSV input/output options',
