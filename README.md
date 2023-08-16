@@ -1,10 +1,7 @@
 Welcome to DOEPY
 =================
-Design of Experiments Generator in Python (`pip install doepy`)
+Design of Experiments Generator in Python (`pip install fluidon-doepy`)
 ------------------------------------------------------------------
-<p align="center">
-  <img width="500" height="250" src="https://raw.githubusercontent.com/tirthajyoti/doepy/master/images/doe_1.PNG">
-</p>
 
 ## Introduction
 ---
@@ -81,10 +78,6 @@ Pressure | Temperature | FlowRate | Time
 
 There are, of course, half-factorial designs to try!
 
-<p align="center">
-  <img width="500" height="250" src="http://pcb.iconnect007.com/index.php/download_file/view_inline/6616/">
-</p>
-
 ### Latin Hypercube design
 Sometimes, a set of **randomized design points within a given range** could be attractive for the experimenter to asses the impact of the process variables on the output. [Monte Carlo simulations](https://en.wikipedia.org/wiki/Monte_Carlo_method) are a close example of this approach. 
 
@@ -117,8 +110,6 @@ Pressure | Temperature | FlowRate | Time
 53.99 | 297.07 | 0.32 | 10.43
 
 Of course, there is no guarantee that you will get the same matrix if you run this function because this are randomly sampled, but you get the idea!
-
-<p align="center"><img width="400" height="350" src="http://sumo.intec.ugent.be/sites/sumo/files//sed_3d.png"></p>
 
 ### Other functions to try
 Try any one of the following designs,
