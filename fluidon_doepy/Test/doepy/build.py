@@ -1,4 +1,4 @@
-from doepy.doe_functions import build_full_fact, build_frac_fact_res,\
+from fluidon_doepy.doe_functions import build_full_fact, build_frac_fact_res,\
                                 build_plackett_burman,build_sukharev,\
                                 build_box_behnken, build_central_composite, \
                                 build_lhs, build_space_filling_lhs, \

@@ -2,7 +2,7 @@
 # Essential imports
 # ====================
 from pyDOE import *
-from doepy.pydoe_corrected import (
+from fluidon_doepy.pydoe_corrected import (
     fullfact_corrected,
     fracfact_corrected,
     fracfact_by_res,
