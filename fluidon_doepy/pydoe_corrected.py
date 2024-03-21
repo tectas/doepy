@@ -416,10 +416,11 @@ def bbdesign_corrected(n, center=None):
 
 import numpy as np
 
-# from pyDOE.doe_factorial import ff2n
-from pyDOE.doe_star import star
-from pyDOE.doe_union import union
-from pyDOE.doe_repeat_center import repeat_center
+# from pyDOE3.doe_factorial import ff2n
+from pyDOE3 import ccdesign
+from pyDOE3.doe_star import star
+from pyDOE3.doe_union import union
+from pyDOE3.doe_repeat_center import repeat_center
 
 __all__ = ["ccdesign"]
 

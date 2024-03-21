@@ -59,7 +59,7 @@ First make sure you have all the necessary packages installed. You can simply ru
 ```
 pip install numpy
 pip install pandas
-pip install pydoe
+pip install pyDOE3
 pip install diversipy
 ```
 
@@ -121,7 +121,7 @@ You should see a `lhs.csv` file in your directory.
 
 ## Acknowledgements and Requirements
 The code was written in Python 3.7. It uses following external packages that needs to be installed on your system to use it,
-* pydoe: A package designed to help the scientist, engineer, statistician, etc., to construct appropriate experimental designs. [Check the docs here](https://pythonhosted.org/pyDOE/).
+* pyDOE3: A package designed to help the scientist, engineer, statistician, etc., to construct appropriate experimental designs. [Check the docs here](https://pythonhosted.org/pyDOE3/).
 * diversipy: A collection of algorithms for sampling in hypercubes, selecting diverse subsets, and measuring diversity. [Check the docs here](https://www.simonwessing.de/diversipy/doc/).
 * numpy
 * pandas

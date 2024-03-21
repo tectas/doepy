@@ -47,7 +47,7 @@ They contain the following commands,
 
    pip install numpy
    pip install pandas
-   pip install pydoe
+   pip install pyDOE3
    pip install diversipy
 
 How to install the package?
@@ -390,9 +390,9 @@ Acknowledgements and Requirements
 The code was written in Python 3.7. It uses following external packages
 that needs to be installed on your system to use it,
 
--  ``pydoe``: A package designed to help the scientist, engineer,
+-  ``pyDOE3``: A package designed to help the scientist, engineer,
    statistician, etc., to construct appropriate experimental designs.
-   `Check the docs here <https://pythonhosted.org/pyDOE/>`__.
+   `Check the docs here <https://pythonhosted.org/pyDOE3/>`__.
 
 -  ``diversipy``: A collection of algorithms for sampling in
    hypercubes, selecting diverse subsets, and measuring diversity.
