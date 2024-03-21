@@ -392,7 +392,7 @@ that needs to be installed on your system to use it,
 
 -  ``pyDOE3``: A package designed to help the scientist, engineer,
    statistician, etc., to construct appropriate experimental designs.
-   `Check the docs here <https://pythonhosted.org/pyDOE3/>`__.
+   `Check the docs here <https://pypi.org/project/pyDOE3/>`__.
 
 -  ``diversipy``: A collection of algorithms for sampling in
    hypercubes, selecting diverse subsets, and measuring diversity.
