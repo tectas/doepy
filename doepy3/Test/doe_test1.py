@@ -4,9 +4,14 @@ print("-"*50)
 build.full_fact({'Pressure':[50,60,70],'Temperature':[290, 320, 350],'Flow rate':[0.9,1.0]}).head()
 print('Test passed')
 
-print("\nReading an example csv")
+print("\nReading an example CSV")
 print("-"*50)
 d1=read_write.read_variables_csv('../Data/params.csv')
+print('Test passed')
+
+print("\nReading an example JSON")
+print("-"*50)
+d2=read_write.read_json('../Data/params.json')
 print('Test passed')
 
 print("\nCC design")
@@ -54,6 +59,13 @@ print("-"*50)
 df1=build.space_filling_lhs(d1,num_samples=100)
 filename = 'df1.csv'
 read_write.write_csv(df1,filename=filename)
+print('Test passed')
+
+print("\nWriting to a JSON file")
+print("-"*50)
+df1=build.space_filling_lhs(d1,num_samples=100)
+filename = 'df1.json'
+read_write.write_json(df1,filename=filename)
 print('Test passed')
 
 # Cleanup the generated CSV
