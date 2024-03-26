@@ -129,25 +129,27 @@ Try any one of the following designs,
 * Halton sequence based: ``build.halton()``
 * Uniform random matrix: ``build.uniform_random()``
 
-### Read from and write to CSV files
+### Read from and write to CSV or JSON files
 
-Internally, you pass on a dictionary object and get back a Pandas DataFrame. But, for reading from and writing to CSV files, you have to use the `read_write` module of the package.
+Internally, you pass on a dictionary object and get back a Pandas DataFrame. But, for reading from and writing to CSV/JSON files, you have to use the `read_write` module of the package.
 
 ```
 from doepy import read_write
 data_in=read_write.read_variables_csv('../Data/params.csv')
+data_in=read_write.read_json('../Data/params.json')
 ```
 
 Then you can use this `data_in` object in the DOE generating functions.
 
-For writing back to a CSV,
+For writing back to a CSV/JSON,
 
 ```
 df_lhs=build.space_filling_lhs(data_in,num_samples=100)
 filename = 'lhs'
 read_write.write_csv(df_lhs,filename=filename)
+read_write.write_json(df_lhs,filename=filename)
 ```
-You should see a `lhs.csv` file in your directory.
+You should see a `lhs.csv` and `lhs.json` file in your directory.
 
 ### A simple pipeline for building a DOE table
 Combining the `build` functions and the `read_write` module, one can devise a simple pipeline to build a DOE from a CSV file input.
@@ -185,7 +187,7 @@ In this way, **the only API user needs to be exposed to, are input and output CS
 Under the hood, `doepy` generates Numpy arrays and convert them to Pandas DataFrame. Therefore, programmatically, it is simple to get those Numpy arrays or DataFrames to do more, if the user wishes so.
 
 ### Coming in a future release - support for more types of files
-Support for more input/output types will come in future releases - MS Excel, JSON, etc.
+Support for more input/output types will come in future releases - MS Excel, etc.
 
 ### Designs available
 * Full factorial,
