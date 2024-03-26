@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'fluidon-doepy'
+project = 'doepy3'
 copyright = '2019, Tirthajyoti Sarkar'
 author = 'Tirthajyoti Sarkar'
 

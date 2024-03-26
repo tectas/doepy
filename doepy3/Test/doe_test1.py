@@ -1,4 +1,4 @@
-from fluidon_doepy import build, read_write
+from doepy3 import build, read_write
 print("\nFull factorial")
 print("-"*50)
 build.full_fact({'Pressure':[50,60,70],'Temperature':[290, 320, 350],'Flow rate':[0.9,1.0]}).head()

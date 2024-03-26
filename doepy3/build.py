@@ -1,4 +1,4 @@
-from fluidon_doepy.doe_functions import (
+from doepy3.doe_functions import (
     build_full_fact,
     build_frac_fact_res,
     build_plackett_burman,

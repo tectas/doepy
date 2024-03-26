@@ -5,11 +5,12 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools_scm]
 
 [project]
-name = "fluidon-doepy"
-version = "0.0.7"
+name = "doepy3"
+version = "0.0.8"
 authors = [
     { name='Tirthajyoti Sarkar', email="tirthajyoti@gmail.com" },
     { name="Oliver Breuer", email="oliver.breuer@fluidon.com" },
+    { name="Adrian Stöckl", email="adrian.stoeckl@gmail.com"},
 ]
 description = "Design of experiments generator with simple CSV input/output options"
 readme = "README.md"
@@ -27,5 +28,5 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/fluidon-sw/doepy"
-"Bug Tracker" = "https://github.com/fluidon-sw/doepy/issues"
+"Homepage" = "https://github.com/tectas/doepy"
+"Bug Tracker" = "https://github.com/tectas/doepy/issues"
