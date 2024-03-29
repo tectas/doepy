@@ -151,7 +151,7 @@ def central_composite(d, center=(2, 2), alpha="o", face="ccc"):
     return build_central_composite(d, center=center, alpha=alpha, face=face)
 
 
-def lhs(d, num_samples=None, prob_distribution=None):
+def lhs(d, num_samples=None, prob_distribution=None, random_state=None):
     """
     Builds a Latin Hypercube design dataframe from a dictionary of factor/level ranges.
     Only min and max values of the range are required.
@@ -165,7 +165,7 @@ def lhs(d, num_samples=None, prob_distribution=None):
 	Latin hypercube sampling (LHS) is a form of stratified sampling that can be applied to multiple variables. The method commonly used to reduce the number or runs necessary for a Monte Carlo simulation to achieve a reasonably accurate random distribution. LHS can be incorporated into an existing Monte Carlo model fairly easily, and work with variables following any analytical probability distribution.
     """
 
-    return build_lhs(d, num_samples=num_samples, prob_distribution=prob_distribution)
+    return build_lhs(d, num_samples=num_samples, prob_distribution=prob_distribution, random_state=random_state)
 
 
 def space_filling_lhs(d, num_samples=None):

@@ -1,16 +1,17 @@
 import unittest
 import pandas as pd
+
+from doepy3_test.test_environment import ReadWriteTestData as TestData
 from doepy3.read_write import read_variables_csv, write_csv, write_json, read_json
 
 
 class TestReadWriteMethods(unittest.TestCase):
 
     def setUp(self):
-        self.data = {'Pressure': [40, 55, 70], 'Temperature': [290, 320, 350], 'FlowRate': [0.2, 0.3, 0.4],
-                     "Time": [5, 8, 11]}
+        self.data = TestData.TEST_DATA
         self.df = pd.DataFrame(self.data)
-        self.filename_csv = '../Data/params.csv'
-        self.filename_json = '../Data/params.json'
+        self.filename_csv = TestData.CSV_PATH
+        self.filename_json = TestData.JSON_PATH
 
     def test_read_variables_csv(self):
         result = read_variables_csv(self.filename_csv)
